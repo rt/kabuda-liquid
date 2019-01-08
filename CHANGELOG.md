@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.4.6"></a>
+## 0.4.6 (2019-01-08)
+
+
+### Bug Fixes
+
+* **lib upgrade:** upgrade libs and move to github ([deef403](https://bitbucket.org/ryan_tsunoda/kabuda/commits/deef403))
+
+
+
 <a name="0.4.5"></a>
 ## [0.4.5](https://bitbucket.org/ryan_tsunoda/kabuda/compare/v0.4.4...v0.4.5) (2017-12-21)
 
