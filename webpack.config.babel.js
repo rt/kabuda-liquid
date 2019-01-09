@@ -16,7 +16,7 @@ export default () => (
             filename: outputFile,
             library: libraryName,
             libraryTarget: 'umd',
-            umdNamedDefine: true
+            globalObject: 'this'
         },
         externals: {
             XMLHttpRequest: 'XMLHttpRequest'

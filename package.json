@@ -1,6 +1,6 @@
 {
   "name": "kabuda-liquid",
-  "version": "0.4.6",
+  "version": "0.4.9",
   "description": "...",
   "main": "dist/KABUDA.js",
   "scripts": {
