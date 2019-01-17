@@ -1,6 +1,6 @@
 # kabuda-liquid
 
-kabuda library
+A class-based flow like front-end architecture.
 
 ### package.json
 

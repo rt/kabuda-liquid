@@ -1,8 +1,11 @@
 {
   "name": "kabuda-liquid",
-  "version": "0.4.9",
-  "description": "...",
+  "version": "0.4.10",
+  "description": "A class-based flow like front-end architecture.",
   "main": "dist/KABUDA.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "webpack --mode=production",
     "dev": "webpack --progress --colors --watch --mode=development",
@@ -37,9 +40,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/ryan_tsunoda/kabuda.git"
+    "url": "git+ssh://git@github.com:rt/kabuda-liquid.git"
   },
   "author": "Ryan Tsunoda",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/ryan_tsunoda/kabuda#readme"
+  "homepage": "https://github.com/rt/kabuda-liquid#readme"
 }

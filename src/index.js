@@ -1,3 +1,4 @@
+import '@babel/polyfill';
 import ObjectStore from './stores/object-store';
 import ClassStore from './stores/class-store';
 import SessiontStorageStore from './stores/session-storage-store';
