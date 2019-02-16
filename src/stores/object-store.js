@@ -129,7 +129,9 @@ export default class ObjectStore {
      */
     create(collectionName, obj, suppressChangeEvent) {
 
-        obj._id = uuid.v1();
+        if (!obj._id) {
+            obj._id = uuid.v1();
+        }
 
         obj._timestamp = Date.now();
         this._store[collectionName].push(obj);

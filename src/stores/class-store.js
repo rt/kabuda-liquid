@@ -12,6 +12,15 @@ export default class ClassStore extends ObjectStore {
     }
 
     /**
+     * @param {object} table
+     */
+    addTable(table) {
+        this._store[table.name] = this._store[table.name] || [];
+        this.options.schema[table.name] = table.model;
+        Object.assign(this, table.methods);
+    }
+
+    /**
      * @param {string} collectionName
      * @param {class} obj
      */

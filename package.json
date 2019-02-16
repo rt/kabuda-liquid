@@ -1,6 +1,6 @@
 {
   "name": "kabuda-liquid",
-  "version": "0.4.10",
+  "version": "0.4.12",
   "description": "A class-based flow like front-end architecture.",
   "main": "dist/KABUDA.js",
   "files": [
